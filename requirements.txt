@@ -1,0 +1,5 @@
+streamlit
+streamlit-calendar
+gspread
+google-auth
+pandas
