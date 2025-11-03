@@ -17,7 +17,16 @@ st.markdown(
     """,
     unsafe_allow_html=True,
 )
-
+st.markdown("""
+<style>
+h2 {
+    font-size: 1.2rem !important;
+    font-weight: 600 !important;
+    margin-top: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
+}
+</style>
+""", unsafe_allow_html=True)
 
 # ============== PASSWORD GATE ==============
 def check_password() -> bool:
